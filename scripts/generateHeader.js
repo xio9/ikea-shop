@@ -41,7 +41,7 @@ const generateHeader = () => {
 </header>
     `;
 
-    document.body.insertAdjacentHTML('afterbegin', header);
+    document.body.insertAdjacentHTML('beforebegin', header);
 }
 
 generateHeader();
